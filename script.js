@@ -5,7 +5,7 @@ form.addEventListener("submit",(e)=>{
 	const name = document.getElementById("name").value;
 	const age = document.getElementById("age").value;
 	if(name==="" || age=== ""){
-		alert("All fields are required!")
+		alert("Please enter valid details")
 		return;
 	}
 	const result = new Promise((resolve,reject)=>{
